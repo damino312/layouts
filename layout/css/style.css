@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  overflow-x: hidden; /* due to width: 10wv of .logos*/
 }
 
 *,
@@ -126,7 +125,7 @@ header .container {
 .logos::after {
   content: "";
   height: 230px;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: white;
   display: block;
   position: absolute;
